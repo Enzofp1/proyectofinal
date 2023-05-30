@@ -1,0 +1,17 @@
+.gn{
+    font-weight:100px;
+    font-style: italic;
+     justify-content: center;
+     text-align: center;
+     align-items: center;
+     display: flex;
+     margin-top: 300px;
+}
+.dias{
+    background: rgb(185, 153, 153);
+    font-size: 25px;
+}
+body{
+    min-height: 60vh;
+    background-image: linear-gradient(-45deg,#c5c1bd 50%,#63bfcf 50%)
+}

@@ -1,0 +1,153 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+   
+    /* background-image: url(far-concesionarios-billboard.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+   background-size:contain;
+   background-attachment: fixed;
+  background-position: 50% 124px; */
+  min-height: 100vh;
+    background-image: linear-gradient(-45deg,#be7c50 50%,#97a4a8 50%)
+  
+}
+header{
+    display: flex;
+   gap: 200px;
+   justify-content: center;
+    height: 50px;
+    background-color: rgb(228, 224, 222);
+    align-items: center;
+    padding: 10px;
+     width: 100%;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.lista{
+    gap: 20px;   
+    flex-direction: row;
+    list-style: none;
+    display: flex;
+    
+}
+a{
+    text-decoration: none;
+}
+.footer2{
+    text-align: center;
+  background-color: rgb(115, 185, 202);
+   align-self: flex-end;
+    width: 100%;
+   
+}
+.logo-img{
+    height: 50px;
+    border-radius: 10px;
+    
+}
+.logo {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  .logo > a > img {
+    width: 50px;
+    height: 50px;
+    transition: 0.4s all ease-in-out;
+  }
+
+  .logo > a > img:hover {
+    transform: rotate(360deg) scale(1.1);
+  }
+.consulta{
+     margin-top:autopx;
+    text-align: center;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+   
+    font-size: 15px;
+}
+.fondo{
+  width: 1050px;
+  height: 650px;
+
+}
+.fondocont{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.conteiner-0{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+}
+.conteiner-1{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.conteiner-2{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  color: rgb(27, 29, 27);
+
+}
+.conteiner-3{
+ display: flex;
+ justify-content: center;
+ gap: 20px;
+}
+.conteiner-4{
+  width: 250px;
+  height: 250px;
+}
+.conteiner-5{
+  
+  margin-top: 40px;
+}
+.conteiner-6{
+  display: flex;
+ margin: 10px;
+  justify-content: left;
+
+}
+.derecha{
+  display: flex;
+  margin-top: 10px;
+}
+.video1{
+  margin-top:10px ;
+  display: flex;
+  justify-content: left;
+  margin: 10px;
+}
+.integrantes{
+  margin: 10px;
+  margin-top: 10px;
+  
+}
+.wspimagen{
+  border-radius: 10px;
+  margin: 10px;
+  margin-top: -10px;
+}
+.m{
+  top: 50px;
+}
+
+
